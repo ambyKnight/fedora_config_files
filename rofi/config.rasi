@@ -1,0 +1,57 @@
+configuration {
+    font: "JetBrains Mono 12";
+    show-icons: true;
+}
+
+window {
+    width: 30%;
+    border-radius: 10px;
+    background-color: #1e1e2e;
+    border: 2px;
+    border-color: #89b4fa;
+}
+
+mainbox {
+    padding: 10px;
+}
+
+inputbar {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #313244;
+}
+
+textbox-prompt-colon {
+    str: " ";
+    text-color: #89b4fa;
+}
+
+entry {
+    placeholder: "Search apps...";
+    text-color: #cdd6f4;
+}
+
+listview {
+    spacing: 6px;
+    padding: 6px 0px;
+}
+
+element {
+    padding: 8px;
+    border-radius: 8px;
+    text-color: #cdd6f4;
+}
+
+element selected {
+    background-color: #89b4fa;
+    text-color: #1e1e2e;
+}
+
+element-icon {
+    size: 20px;
+}
+
+element-text {
+    vertical-align: 0.5;
+}
+
